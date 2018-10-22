@@ -1,0 +1,11 @@
+
+type Query {
+    posts:[Post!]!
+
+}
+
+type Post{
+    title:String,
+    text:String,
+    readers:Int
+}
